@@ -4,15 +4,15 @@ prompt.start();
 
 prompt.get('input', function (err, result) {
   
-     let n = result.input.split(" ")
+     let n = result.input.split(" ");
     
-    let arr = []
+    let arr = [];
     for ( let i = 0; i < n.length; i++){
         if(i % 2 == 0){
-            arr.push(n[i])
+            arr.push(n[i]);
         }
     }
-     console.log(n)
-     console.log(arr.join(" "))
+     console.log(n);
+     console.log(arr.join(" "));
   
 });
